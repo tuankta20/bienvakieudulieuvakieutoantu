@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chương Trình tính độ c chuyên nghiệp :3</title>
+</head>
+<body>
+<h2>Nhập Độ C</h2>
+<input id="so1">
+<option id="so2">   </option>
+<button type="button" onclick="tinh()">Độ F</button>
+<p id="ketqua"></p>
+<script>
+    function tinh () {
+        let a = document.getElementById("so1").value;
+        let b = document.getElementById("so2").value;
+        a = [(b - 32) / 9] * 5;
+        document.getElementById("ketqua").innerHTML = a;
+    }
+</script>
+
+</body>
+</html>

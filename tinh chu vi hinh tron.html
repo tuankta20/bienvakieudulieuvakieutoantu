@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính Chu Vi Hinh Tròn</title>
+</head>
+<body>
+<h2>Nhập Bán kính</h2>
+<input id="1">
+<button id="button" onclick="tinh()">Tính Chu Vi</button>
+<p id="ketqua"></p>
+<script>
+    function tinh() {
+        let a =document.getElementById("1").value;
+        X = 2*3.14*a;
+        document.getElementById("ketqua").innerHTML = X;
+
+    }
+</script>
+</body>
+</html>

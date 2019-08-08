@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính diện Tích Hình Tròn</title>
+</head>
+<body>
+<h2>Bán kính</h2>
+<input id="1">
+<button type="button" onclick="dientich()">Diện Tích</button>
+<p id="ketqua"></p>
+<script>
+    function dientich() {
+        let a = document.getElementById("1").value;
+        X = a*a*3.14;
+        document.getElementById("ketqua").innerHTML = X;
+
+    }
+</script>
+</body>
+</html>

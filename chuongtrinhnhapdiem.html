@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhap diem trung binh</title>
+
+</head>
+<body>
+<h2>Vật Lí</h2>
+<input id="so1">
+<h2>Hóa Học</h2>
+<input id="so2">
+<h2>Sinh Học</h2>
+<input id="so3">
+<button type="button" onclick="tinhdiem ()">Kết Quả</button>
+<p id="ketqua"></p>
+<script>
+    function tinhdiem () {
+    let a = Number(document.getElementById("so1").value);
+    let b = Number(document.getElementById("so2").value);
+    let c = Number(document.getElementById("so3").value);
+    X = (a+b+c) / 3;
+      document.getElementById("ketqua").innerHTML = X;
+    }
+</script>
+</body>
+</html>
